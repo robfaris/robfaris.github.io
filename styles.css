@@ -89,10 +89,10 @@ button {
 }
 
 .top-bar .image {
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
     flex: 1 1 100%;
     margin: 0 10%;
     background-color: gray;
@@ -111,19 +111,25 @@ button {
     flex-direction: row;
     gap: 50px;
     text-align: center;
-    /* flex-wrap: wrap; */
+    flex-flow: wrap;
+    padding: 0;
 }
 
 .info-bar .block-part {
-    /* flex-wrap: wrap; */
     padding: 0;
 }
 
 .info-bar .block-part div {
-    background-color: #1F2937;
     width: 150px;
     height: 150px;
-    flex: 0 0 150px;    
+    flex: 0 0 150px; 
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+.info-bar .block-part p {
+    width: 150px;
 }
 
 .quote-bar {
@@ -171,6 +177,6 @@ button {
     border: #F9FAF8;   
     border-style: solid; 
     border-width: 2px;
-    flex: 0 1 100px;
+    flex: 0 1 150px;
 }
 
