@@ -69,6 +69,7 @@ button {
     color: #E5E7EB;
     list-style-type: none;
     font-size: 18px;
+    gap: 16px;
 }
 
 .top-bar {
