@@ -214,6 +214,6 @@ button {
     padding: 20px 0;
 }
 
-a:link {
+.button-bar a:link {
     color: #F9FAF8;
 }
