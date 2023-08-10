@@ -213,3 +213,7 @@ button {
     text-align: center;
     padding: 20px 0;
 }
+
+a:link {
+    color: #F9FAF8;
+}
