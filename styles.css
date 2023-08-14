@@ -91,7 +91,7 @@ button {
 }
 
 .top-bar .image {
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,9 +101,9 @@ button {
 }
 
 .top-bar .image img {
-    height: 200px;
+    height: 380px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .info-bar {
@@ -143,6 +143,14 @@ button {
     width: 150px;
 }
 
+.super-quote {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #E5E7EB;
+    width: 100%;
+}
+
 .quote-bar {
     display: flex;
     flex-direction: column;
@@ -160,11 +168,14 @@ button {
     gap: 50px;
 }
 
-.quote-bar .quote-image {
+.quote-image {
     height: auto;
-    width: 200px;
+    max-height: 500px;
+    width: 100px;
     align-self: center;
     padding: 0;
+    margin: 0;
+    object-fit: scale-down;
 }
 .skill-bar li {
     padding: 3px;
