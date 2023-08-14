@@ -173,13 +173,17 @@ li > a:hover {
     width: 100%;
 }
 
+.break {
+    display: none;
+}
+
 .quote-bar .skill-bar {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     gap: 30px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .quote-image {
@@ -193,6 +197,11 @@ li > a:hover {
 }
 .skill-bar li {
     padding: 3px;
+}
+
+.break {
+    flex: 1 1 100%;
+    height: 0;
 }
 
 .button-bar {
@@ -276,11 +285,25 @@ li > a:hover {
 }
 
 @media only screen and (max-width: 750px) {
+    .header-nav {
+        flex-direction: column;
+        align-items: flex-end
+    }
     .top-bar .image {
         display: none;
     }
+    .quote-bar .skill-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 80px;
+    }
     .quote-bar .image {
         display: none;
+    }
+    .break {
+        display: flex;
+        break-after: always;
     }
     .button-bar {
         flex-direction: column;
@@ -289,6 +312,7 @@ li > a:hover {
     }
     #contact {
         align-items: center;
+        padding-left: 20px;
     }
     .button-bar button {
         flex: 0 0 50px;
@@ -299,4 +323,5 @@ li > a:hover {
     #flickr {
         margin: 20px 0;
     }
+
 }
