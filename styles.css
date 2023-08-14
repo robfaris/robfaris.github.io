@@ -292,12 +292,17 @@ li > a:hover {
     .top-bar .image {
         display: none;
     }
+    .quote-bar {
+        padding: 0;
+    }
     .quote-bar .skill-bar {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        margin-left: 80px;
+        margin-left: 20px;
         margin-right: 0;
+        padding-right: 0;
+        gap: 0;
     }
     .quote-bar .image {
         display: none;
@@ -314,6 +319,9 @@ li > a:hover {
     #contact {
         align-items: center;
         padding-left: 20px;
+    }
+    .button-bar .btn {
+        border-radius: 0;
     }
     .button-bar button {
         flex: 0 0 50px;
