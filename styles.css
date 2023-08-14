@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -71,6 +75,15 @@ button {
     font-size: 18px;
     gap: 16px;
     z-index: 1;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+}
+
+li > a:hover {
+    color: #7aacf4;
 }
 
 .top-bar {
@@ -165,7 +178,8 @@ button {
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
+    margin-right: 10px;
 }
 
 .quote-image {
@@ -186,7 +200,11 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0;
+    margin: 0 0 30px 0;
+}
+
+.button-bar h4 {
+    font-size: 1.5em;
 }
 
 .button-bar .btn {
@@ -203,18 +221,33 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 10%;
+    margin: 20px 5%;
     padding: 0;
     color:#F9FAF8;
 }
 
+.button-bar .btn .text > p {
+    margin: 0;
+}
+
 .button-bar button {
-    width: 100px;
-    margin: 0 10%;
+    height: 65px;
+    width: auto;
+    margin: 0 5% 0 20px;
     border: #F9FAF8;   
     border-style: solid; 
     border-width: 2px;
     flex: 0 1 150px;
+}
+
+.button-bar button:hover {
+    background-color: #E5E7EB;
+    color: #3882F6;
+    transition: 0.35s;
+}
+
+.button-bar a:link {
+    color: #F9FAF8;
 }
 
 .footer {
@@ -225,6 +258,45 @@ button {
     padding: 20px 0;
 }
 
-.button-bar a:link {
-    color: #F9FAF8;
+#linkedn {
+    height: 60px;
+    width: auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+#flickr {
+    height: 60px;
+    width: auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2px;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+    .top-bar .image {
+        display: none;
+    }
+    .quote-bar .image {
+        display: none;
+    }
+    .button-bar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #contact {
+        align-items: center;
+    }
+    .button-bar button {
+        flex: 0 0 50px;
+        width: 80px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    #flickr {
+        margin: 20px 0;
+    }
 }
