@@ -305,8 +305,12 @@ li > a:hover {
     transition: 0.35s;
 }
 
-.button-bar a:link {
+.button-bar p > a:link {
     color: #F9FAF8;
+}
+
+.button-bar p > a:hover {
+    color: #E5E7EB;
 }
 
 .footer {
