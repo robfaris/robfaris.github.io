@@ -339,12 +339,21 @@ a:hover {
   }
 
 @media only screen and (max-width: 750px) {
+    iframe {
+        width: 90%;
+        height: 200px;
+    }
     .header-nav {
         flex-direction: column;
         align-items: flex-end
     }
     .top-bar {
         flex-direction: column-reverse;
+    }
+    .top-bar img{
+        width: 200px;
+        margin: -950px 0 -900px;
+        padding: 0;
     }
     .break {
         display: flex;
