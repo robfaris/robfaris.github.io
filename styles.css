@@ -349,11 +349,17 @@ a:hover {
     }
     .top-bar {
         flex-direction: column-reverse;
+        margin: 0;
     }
     .top-bar img{
         width: 200px;
         margin: -950px 0 -900px;
         padding: 0;
+    }
+    .top-bar .text {
+        font-size: .8em;
+        padding: 0 15% 0 15%;
+        margin: 0;
     }
     .break {
         display: flex;
