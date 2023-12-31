@@ -361,6 +361,17 @@ a:hover {
         padding: 0 15% 0 15%;
         margin: 0;
     }
+    
+    .info-bar-blocks.blue p {
+        width: auto;
+        padding-right: 15px;
+    }
+        
+    .info-bar-blocks.orange p {
+        width: auto;
+        padding-right: 15px;
+    }
+
     .break {
         display: flex;
         break-after: always;
