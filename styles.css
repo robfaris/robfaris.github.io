@@ -335,6 +335,16 @@ a:hover {
     flex: 0 1 80%;
 }
 
+#email-icon:hover{
+    opacity: 50%;
+    transition: opacity 300ms;
+}
+
+#linkedn-circle:hover{
+    opacity: 50%;
+    transition: opacity 300ms;
+}
+
 .footer {
     width: 100%;
     background-color: #1F2937;
