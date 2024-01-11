@@ -248,6 +248,18 @@ a:hover {
     padding-bottom: 200px;
     font-size: 1.1em;
     margin: 50px 0 50px;
+    color: #60ABE8;
+}
+
+.work-bar-part:hover {
+    color: #DBB778;
+    transition: color 200ms;
+}
+
+.work-bar-part:hover img {
+    border-radius: 50%;
+    background-color: #DBB778;
+    transition: background-color 200ms;
 }
 
 .icon-wrapper {
@@ -258,9 +270,7 @@ a:hover {
     padding: 0;
 }
 
-.work-bar-part h3 {
-    color: #60ABE8;
-}
+
 
 .video-text {
     text-align: center;
