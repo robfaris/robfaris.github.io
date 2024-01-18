@@ -270,7 +270,9 @@ a:hover {
     padding: 0;
 }
 
-
+.mobile-info {
+    display: none;
+}
 
 .video-text {
     text-align: center;
@@ -414,6 +416,9 @@ a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .mobile-info {
+        display: flex;
     }
     #contact {
         align-items: center;
