@@ -142,6 +142,34 @@ a:hover {
     border-radius: 200px; */
 }
 
+.demo-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: #F9FAF8;
+    padding: 50px 10% 50px 10%;
+    gap: 50px;
+}
+
+.demo-bar h4 {
+    width: 20%;
+    margin-right: 10%;
+}
+
+
+.demo-bar .image {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 100%;
+    margin: 80px 15% 50px;
+    /* background-image: linear-gradient(45deg, #60ABE8 3.85%, #292C35 3.85%, #292C35 50%, #60ABE8 50%, #60ABE8 53.85%, #292C35 53.85%, #292C35 100%);
+    background-size: 18.38px 18.38px;
+    border-radius: 200px; */
+}
+
 .section-header {
     color: #60ABE8;
     margin: 20px 15%;
@@ -576,6 +604,16 @@ h3.identifier {
         font-size: .8em;
         padding: 0 15% 0 15%;
         margin: 0;
+    }
+    .demo-bar {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        gap: 10px;
+    }
+
+    .demo-bar h4 {
+        width: 80%;
     }
     
     .info-bar-blocks.blue p {
